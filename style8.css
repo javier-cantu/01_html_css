@@ -1,0 +1,59 @@
+* {
+    margin: 0; /* Estp es para que no haya espacio al rededor de las boxes */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #815bff;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+  }
+
+.info {
+    text-align: left;
+    padding: 5px;
+    color: #ffffff;
+    border-bottom: 2px solid #fdb347;
+  }
+
+  
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Esto es para que el ultimo se pegue a la izq*/
+.gallery::after {
+    content: "";
+    width: 350px;
+}
+
+.footer {
+    text-align: center;
+    border-top: 4px solid #ffa724;
+    padding: 20px;
+    background-color: rgb(96, 154, 255);
+    color: #ffffff;
+}

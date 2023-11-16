@@ -1,0 +1,29 @@
+/* This is a CSS comment. */
+
+/* Set the background color of the entire page to light gray. */
+body {
+    background-color: #8aa5ff;
+}
+
+/* Style the heading element (h1) with a blue color and center it. */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Style paragraphs (p) with a larger font size and some margin. */
+p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* Style links (a) to be blue with no underlines. */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Change the link color when you hover over it. */
+a:hover {
+    color: darkblue;
+}

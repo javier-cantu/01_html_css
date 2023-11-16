@@ -1,0 +1,21 @@
+body {
+    background-color: #8aa5ff;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 196, 0);
+}

@@ -1,0 +1,48 @@
+#boxmodel1 {
+    text-align: center;
+    width: 200px;
+
+    margin: 50px; /* Margen no tiene color */
+    border: 40px solid rgb(255, 255, 188); /* Borde amarillo */
+    padding: 50px; /* Padding no tiene color */
+    background-color: rgb(111, 170, 246); /* Color de fondo azul */
+  }
+
+#boxmodel2 {
+    text-align: center;
+    
+    margin: 50px;
+    border: 40px solid rgb(193, 255, 148);
+    padding: 50px;
+    background-color: rgb(220, 164, 255);
+  }
+
+#boxmodel3 {
+    text-align: center;
+    width: 200px;
+    
+    margin: 50px;
+
+    border: 40px solid rgb(255, 216, 44);
+    border-radius: 30px 25px 60px 12px;
+
+    padding: 50px;
+    background-color: rgb(127, 176, 255);
+  }
+
+#boxmodel4 {
+    text-align: center;
+    width: 200px;
+    
+    margin: 50px;
+
+    border: 40px solid rgb(255, 216, 44);
+    border-radius: 30px 25px 60px 12px;
+
+    padding: 50px;
+    background-color: rgb(127, 176, 255);
+
+    transform: rotate(-5.0deg);
+    box-shadow: 0 0 10px 3px #929292; /* Desplazamiento horizontal, desplazamiento vertical, Desenfoque, Propagacion */
+    filter: blur(1px);
+  }

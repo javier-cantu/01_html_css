@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Basics</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <main> 
+        <!-- Uso la misma class para cada div  -->
+        <div class="box">
+            <h1>Box Model Basics</h1>
+        </div>
+
+        <div class="box">
+            <p>margin: 5px</p>
+            <p>border: 20px solid rgb(234, 255, 43)</p>
+            <p>padding: 20px;</p>
+            <p>background-color: rgb(111, 170, 246)</p>
+        </div>
+
+        <div class="box">
+            <p>En este caso voy a utilizar la misma clase "box" para darle el mismo estilo a cada div.</p>
+        </div>
+
+        <div class="box">
+            <p>Entonces con el Box Model se hacen cajas que tienen un margen, border, padding, y background color. Y usando solo el box model se pone una encima de otra en una sola columna</p>
+        </div>
+
+        <div class="box">
+            <!-- Imagen pequeña 300x300 -->
+            <p>Aqui hay una foto pequeña 300x300</p>
+            <br>
+            <img src="http://via.placeholder.com/300x300">
+        </div>
+
+        <div class="box">
+            <!-- Imagen mediana 640x360 -->
+            <p>Aqui hay una foto mediana de 640 x 360 y hay un problema porque mide mas que la width del div.</p>
+            <br>
+            <img src="http://via.placeholder.com/640x360">
+        </div>
+
+        <div class="box">
+            <!-- Imagen mediana 640x360 -->
+            <p>Aqui de nuevo esta la misma foto de 640 x 360 pero ahora la imagen tiene un id, y en el css su propiedad width es 100%, lo que la hace del 100% del tamaño de su contenedor.</p>
+            <br>
+            <img id="fotodiv" src="http://via.placeholder.com/640x360">
+        </div>
+    </main>
+    
+    <footer class="box">
+        <p>
+            Javier Cantú - <a href="https://github.com/javier-cantu">My Github</a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+* {
+    margin: 0; /* Estp es para que no haya espacio al rededor de las boxes */
+}
+
+body {
+    background-color: rgb(29, 15, 73);
+}
+
+
+/* La clase box es la que uso en cada div */
+.box {
+    width: 400px; /* Ancho fijo de la caja */
+    margin-left: auto; /* Margin auto para centrarlas horizontalmente */
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    border: 20px solid rgb(193, 255, 148); /* Borde verde */
+    border-radius: 10px;
+    padding: 20px; /* Padding no tiene color */
+    background-color: rgb(127, 182, 255); /* Color de fondo azul */
+  }
+
+#fotodiv {
+    width: 100%;
+}
