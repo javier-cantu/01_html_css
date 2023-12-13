@@ -16,17 +16,18 @@
 }
 
 #page-wrapper {
-    background-color: var(--color1);
+    width: 800px;
 }
+
+
 
 #header {
     background-color: var(--color2);
+    /* 015. Your product landing page should utilize CSS flexbox at least once */
     display: flex;
     flex-direction: row;
-}
-
-#logo {
-    background-color: var(--color3);
+    /* para que no lo tape la nav bar por el index */
+    margin-top: 20px;
 }
 
 #logo > img {
@@ -40,16 +41,24 @@
 
 
 
-
+/* 013. The navbar should always be at the top of the viewport */
 #nav-bar {
-    background-color: var(--color5);
+    position: fixed;   /* Hace que el elemento sea fijo en la ventana */
+    top: 0;            /* Lo coloca en la parte superior de la ventana */
+    left: 0;           /* Lo coloca en la parte izquierda de la ventana */
+    width: 100%;       /* Hace que el ancho sea del 100%, ocupando toda la ventana */
+    background-color: var(--color5);  /* Establece el color de fondo del navbar */
+    z-index: 1000;     /* Establece un alto z-index para asegurar que aparezca por encima de otros elementos */
 }
+
+
 
 
 
 #nav-bar ul {
     list-style: none; /* Remove bullets */
-    display: flex; /* Use flexbox to align items horizontally */
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* align items horizontally */
 }
 
 #nav-bar li {
@@ -59,4 +68,16 @@
 .nav-link {
     text-decoration: none; /* Remove default underline from links */
     color: #333; /* Set the text color for links */
+}
+
+
+
+
+
+/* 014. Your Product Landing Page should use at least one media query. */
+/* Si la pantalla es menos de 800px entonces page-weapper se hace de 400px de ancho */
+@media only screen and (max-width: 800px) {
+    #page-wrapper {
+        width: 400px;
+    }
 }
