@@ -1,0 +1,62 @@
+:root {
+    --color1: #fff8b9;
+    --color2: #d0b8ff;
+    --color3: #80ffdf;
+    --color4: #4992ff;
+    --color5: #fdff80;
+}
+
+/* Normalize CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    background-color: var(--color1);
+}
+
+#header {
+    background-color: var(--color2);
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    background-color: var(--color3);
+}
+
+#logo > img {
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+#nav-bar {
+    background-color: var(--color5);
+}
+
+
+
+#nav-bar ul {
+    list-style: none; /* Remove bullets */
+    display: flex; /* Use flexbox to align items horizontally */
+}
+
+#nav-bar li {
+    margin-right: 30px; /* Add some spacing between list items */
+}
+
+.nav-link {
+    text-decoration: none; /* Remove default underline from links */
+    color: #333; /* Set the text color for links */
+}
